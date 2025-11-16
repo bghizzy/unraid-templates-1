@@ -15,7 +15,7 @@ Find a guide on how to get this up and running at https://docs.ibracorp.io</Over
   <Category>GameServers: Network:Management</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/ibracorp/unraid-templates/master/icons/pterodactyl-panel.png</Icon>
+  <Icon>https://raw.githubusercontent.com/ibracorp/unraid-templates/master/pterodactyl-panel/pterodactyl-panel.png</Icon>
   <ExtraParams>--privileged=true --restart=unless-stopped</ExtraParams>
   <PostArgs/>
   <CPUset/>
@@ -71,3 +71,4 @@ Find a guide on how to get this up and running at https://docs.ibracorp.io</Desc
   <Config Name="data" Target="/mnt/user/pterodactyl-node/data" Default="/mnt/user/pterodactyl-node/data" Mode="rw" Description="Container Path: /mnt/user/pterodactyl-node/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/pterodactyl-node/data</Config>
   <Config Name="tmp" Target="/tmp/pterodactyl" Default="/tmp/pterodactyl" Mode="rw" Description="Container Path: /tmp/pterodactyl" Type="Path" Display="always" Required="false" Mask="false">/tmp/pterodactyl</Config>
 </Container>
+
